@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zenmart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./public/css/command.css" />
+    <link rel="stylesheet" href="./public/css/home.css" />
+  </head>
+  <body>
+    <!-- NAVBAR FRAME -->
+    <div class="navbar_frame">
+      <div class="container">
+        <div class="navbar_top">
+          <a href="">
+            <img src="public/images/icons/logo.png" alt="" />
+          </a>
+          <div class="nav_search_frame">
+            <div class="search_box">
+              <div class="category_list">
+                <select>
+                  <option value="" selected>All Categories</option>
+                  <option value="">Computer</option>
+                </select>
+              </div>
+              <input type="search" placeholder="Search Products..." />
+            </div>
+            <div class="search_icon_box">
+              <img src="public/images/icons/search.svg" alt="" />
+            </div>
+          </div>
+          <div class="nav_top_menu">
+            <a href="">
+              <div class="top_menu_box">
+                <div class="box_icon_box">
+                  <img src="public/images/icons/heart.svg" alt="" />
+                </div>
+                <div class="box_info_box">
+                  <span>Wishlist</span>
+                  <strong>My Items</strong>
+                </div>
+              </div>
+            </a>
+            <a href="">
+              <div class="top_menu_box">
+                <div class="box_icon_box">
+                  <img src="public/images/icons/user.svg" alt="" />
+                </div>
+                <div class="box_info_box">
+                  <span>Sign In</span>
+                  <strong>Account</strong>
+                </div>
+              </div>
+            </a>
+            <a href="">
+              <div class="top_menu_box">
+                <div class="box_icon_box">
+                  <div class="basket_count">2</div>
+                  <img src="public/images/icons/shopping-cart.svg" alt="" />
+                </div>
+                <div class="box_info_box">
+                  <span>$200</span>
+                  <strong>Total</strong>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="navbar_bott">
+          <div class="navbar_bott_menu_box">
+            <div class="browse_box">
+              <img src="public/images/icons/browse.svg" alt="" />
+              <span>Browse Categories</span>
+            </div>
+            <div class="navbar_route_menu">
+              <div class="router_menu">
+                <a href="" class="active">Home</a>
+              </div>
+              <div class="router_menu">
+                <a href="">Shop</a>
+              </div>
+              <div class="router_menu">
+                <a href="">Orders</a>
+              </div>
+              <div class="router_menu">
+                <a href="">About</a>
+              </div>
+              <div class="router_menu">
+                <a href="">Contact</a>
+              </div>
+            </div>
+            <div class="sorting_menu">
+              <span>Deal of the day</span>
+              <span>Hot Deals</span>
+              <span>Best Sellers</span>
+              <span>New Arrivals</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="home_page">
+      <!-- HEADER FRAME -->
+
+      <div class="header_frame">
+        <div class="container">
+          <div class="header_left">
+            <div class="header_content">
+              <div>Special Offer</div>
+              <span>Immersive Extertianment</span>
+              <p>Discover our new items. Up to 25% Off!</p>
+              <a href="">Shop Now</a>
+              <img src="public/images/icons/header_img.svg" alt="" />
+            </div>
+          </div>
+          <div class="header_rieght">
+            <div class="header_box">
+              <div class="box_left">
+                <span>Starting from $899</span>
+                <p>Health Care Monitor</p>
+                <a href="">Shop Now</a>
+                <div class="hover_border"></div>
+              </div>
+              <div class="box_rieght">
+                <img src="public/images/icons/smart_watch.svg" alt="" />
+              </div>
+            </div>
+            <div class="header_box">
+              <div class="box_left">
+                <span>Starting from $899</span>
+                <p>Hanpicked Headphones</p>
+                <a href="">Shop Now</a>
+                <div class="hover_border"></div>
+              </div>
+              <div class="box_rieght">
+                <img src="public/images/icons/naushnik.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SERVICE FRAME -->
+
+      <div class="service_frame">
+        <div class="container">
+          <div class="service_box">
+            <img src="public/images/icons/track.svg" alt="" />
+            <div class="service_content">
+              <span>Free Shipping</span>
+              <p>Free Shipping for orders over $200</p>
+            </div>
+          </div>
+          <div class="service_box">
+            <img src="public/images/icons/money_guarantee.svg" alt="" />
+            <div class="service_content">
+              <span>Mony Guarantee</span>
+              <p>Within 30 days for an exchange</p>
+            </div>
+          </div>
+          <div class="service_box">
+            <img src="public/images/icons/headphones.svg" alt="" />
+            <div class="service_content">
+              <span>Online Support</span>
+              <p>24hours a day, 7days a week</p>
+            </div>
+          </div>
+          <div class="service_box">
+            <img src="public/images/icons/credit-card.svg" alt="" />
+            <div class="service_content">
+              <span>Flexible Payment</span>
+              <p>Pay with Multiple Credit Cards</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SHOP CATEGORY -->
+
+      <div class="shop_category_frame">
+        <div class="container">
+          <div class="category_top">
+            <span>Shop category</span>
+            <a href="">View All Categories</a>
+          </div>
+          <div class="category_wrapper">
+            <div class="category_box">
+              <div class="category_image_box">
+                <img src="public/images/category/tv.png" alt="" />
+              </div>
+              <span>TV's Home Theatre, and Accessories</span>
+            </div>
+            <div class="category_box">
+              <div class="category_image_box">
+                <img src="public/images/category/computer.png" alt="" />
+              </div>
+              <span>Computers, Tablets, and Accessories</span>
+            </div>
+            <div class="category_box">
+              <div class="category_image_box">
+                <img src="public/images/category/smart.png" alt="" />
+              </div>
+              <span>Smart Home</span>
+            </div>
+            <div class="category_box">
+              <div class="category_image_box">
+                <img src="public/images/category/headphone.png" alt="" />
+              </div>
+              <span>Headphones and Portable Speakers</span>
+            </div>
+            <div class="category_box">
+              <div class="category_image_box">
+                <img src="public/images/category/phone.png" alt="" />
+              </div>
+              <span>Cell Phones and Accessories</span>
+            </div>
+            <div class="category_box">
+              <div class="category_image_box">
+                <img src="public/images/category/game.png" alt="" />
+              </div>
+              <span>Video Games, Consoles, and Accessories</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SELLING PRODUCT -->
+
+      <div class="selling_products_frame">
+        <div class="container">
+          <div class="category_top">
+            <div class="category_top">
+              <span>Top Selling Prodacts</span>
+              <a href="">View All</a>
+            </div>
+          </div>
+          <div class="product_wrapper">
+            <div class="next_prew_box">
+              <img src="public/images/icons/next.svg" alt="" />
+            </div>
+            <div class="prodact_boxes">
+              <div class="prodact_box">
+                <a href="">
+                  <div
+                    class="prodact_img_box"
+                    style="
+                      background-image: url(public/images/products/watch.png);
+                      background-size: cover;
+                    "
+                  >
+                    <div class="hover_box">
+                      <button>Add to Card</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="prodact_content_box">
+                  <span class="prodact_title">Samsung</span>
+                  <a href="">
+                    <p class="product_desc">
+                      Apple Watch SE (GPS) 40mm Space Grey Aluminum Case with
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <span>3,014 review</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+              </div>
+              <div class="prodact_box">
+                <a href="">
+                  <div
+                    class="prodact_img_box"
+                    style="
+                      background-image: url(public/images/products/phone.png);
+                      background-size: cover;
+                    "
+                  >
+                    <div class="hover_box">
+                      <button>Add to Card</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="prodact_content_box">
+                  <span class="prodact_title">Samsung</span>
+                  <a href="">
+                    <p class="product_desc">
+                      Apple Watch SE (GPS) 40mm Space Grey Aluminum Case with
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <span>3,014 review</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+              </div>
+              <div class="prodact_box">
+                <a href="">
+                  <div
+                    class="prodact_img_box"
+                    style="
+                      background-image: url(public/images/products/iRobot.png);
+                      background-size: cover;
+                    "
+                  >
+                    <div class="hover_box">
+                      <button>Add to Card</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="prodact_content_box">
+                  <span class="prodact_title">Samsung</span>
+                  <a href="">
+                    <p class="product_desc">
+                      Apple Watch SE (GPS) 40mm Space Grey Aluminum Case with
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <span>3,014 review</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+              </div>
+              <div class="prodact_box">
+                <a href="">
+                  <div
+                    class="prodact_img_box"
+                    style="
+                      background-image: url(public/images/products/dyson.png);
+                      background-size: cover;
+                    "
+                  >
+                    <div class="hover_box">
+                      <button>Add to Card</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="prodact_content_box">
+                  <span class="prodact_title">Samsung</span>
+                  <a href="">
+                    <p class="product_desc">
+                      Apple Watch SE (GPS) 40mm Space Grey Aluminum Case with
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <span>3,014 review</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+              </div>
+              <div class="next_prew_box" style="transform: scaleX(-1)">
+                <img src="public/images/icons/next.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="pagionation_box">
+            <div class="pagination_main">
+              <img src="public/images/icons/arrow-prev_next.svg" alt="" />
+              <div class="pagination_dot">
+                <div class="dot">
+                  <div></div>
+                </div>
+                <div class="dot active">
+                  <div></div>
+                </div>
+                <div class="dot">
+                  <div></div>
+                </div>
+                <div class="dot">
+                  <div></div>
+                </div>
+                <div class="dot">
+                  <div></div>
+                </div>
+              </div>
+              <img
+                src="public/images/icons/arrow-prev_next.svg"
+                alt=""
+                style="transform: scaleX(-1)"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ADV FRAME -->
+
+      <div class="adv_frame">
+        Member get free shipping* with no order minimum!*Restriction apply. Try
+        free 30-day trial
+      </div>
+
+      <!-- SPEC PRODUCT -->
+
+      <div class="spec_prodact_frame">
+        <div class="container">
+          <div class="category_top">
+            <span>Headphones</span>
+            <a href="">View All</a>
+          </div>
+          <div class="spec_prodact_wrapper">
+            <div class="big_prodact_box">
+              <div class="big_prodact_content">
+                <span>Now in moon gray</span>
+                <p>Beats Studio Buds</p>
+                <a href="">Shop Now</a>
+                <div class="hover_border"></div>
+              </div>
+              <img src="public/images/products/headphone_big.png" alt="" />
+            </div>
+            <div class="small_prodact_wrapper">
+              <div class="small_prodact_box">
+                <div class="small_prodact_content">
+                  <strong>Over-Ear</strong>
+                  <span>29 items</span>
+                </div>
+                <img src="public/images/products/sony_headphone.png" alt="" />
+              </div>
+              <div class="small_prodact_box">
+                <div class="small_prodact_content">
+                  <strong>On-Ear</strong>
+                  <span>29 items</span>
+                </div>
+                <img src="public/images/products/on-ear.png" alt="" />
+              </div>
+              <div class="small_prodact_box">
+                <div class="small_prodact_content">
+                  <strong>Sports & Fitness</strong>
+                  <span>29 items</span>
+                </div>
+                <div class="img_3">
+                  <img
+                    src="public/images/products/fitness_headphone.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="small_prodact_box">
+                <div class="small_prodact_content">
+                  <strong>bluetooth Headphones</strong>
+                  <span>29 items</span>
+                </div>
+                <div class="img_4">
+                  <img
+                    src="public/images/products/bluetooth_headphones.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TV FRAME -->
+
+      <div class="tv_frame">
+        <div class="container">
+          <div class="category_top">
+            <span>TV & Home Theatre</span>
+            <div class="">
+              <a href="">Television</a>
+              <a href="">Digital Cable</a>
+              <a href="">Media Stremers</a>
+              <a href="">remote Controls</a>
+            </div>
+          </div>
+          <div class="tv_wrapper">
+            <div class="next_prew_box">
+              <img src="public/images/icons/next.svg" alt="" />
+            </div>
+            <div class="tv_product_boxes">
+              <div class="tv_product_box">
+                <div class="product_img">
+                  <a href="">
+                    <img src="public/images/products/samsung_tv.png" alt="" />
+                  </a>
+                </div>
+                <div class="prodact_content_box">
+                  <span class="prodact_title">Samsung</span>
+                  <a href="">
+                    <p class="product_desc">
+                      Samsung 58" 4K UHD HDR LED Tizen Smart TV
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <span>3,014 review</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+              </div>
+              <div class="tv_product_box">
+                <div class="product_img">
+                  <a href="">
+                    <img src="public/images/products/tcl.png" alt="" />
+                  </a>
+                </div>
+                <div class="prodact_content_box">
+                  <span class="prodact_title">TLC</span>
+                  <a href="">
+                    <p class="product_desc">
+                      TCL 3-Series 40" 1080p HD LED Android Smart TV
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <span>3,014 review</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+              </div>
+              <div class="tv_product_box">
+                <div class="product_img">
+                  <a href="">
+                    <img src="public/images/products/LG-UHD.png" alt="" />
+                  </a>
+                </div>
+                <div class="prodact_content_box">
+                  <span class="prodact_title">LG</span>
+                  <a href="">
+                    <p class="product_desc">
+                      LG 65" 4K UHD HDR LED webOS Smart TV
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <span>3,014 review</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+              </div>
+              <div class="tv_product_box">
+                <div class="product_img">
+                  <a href="">
+                    <img src="public/images/products/LG-OLED.png" alt="" />
+                  </a>
+                </div>
+                <div class="prodact_content_box">
+                  <span class="prodact_title">LG</span>
+                  <a href="">
+                    <p class="product_desc">
+                      LG 55" 4K UHD HDR OLED webOS Smart TV
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <span>3,014 review</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$399.00</strong>
+                    <span>$450</span>
+                  </div>
+                </div>
+              </div>
+              <div class="tv_product_box">
+                <div class="product_img">
+                  <a href="">
+                    <img src="public/images/products/SONY-TV.png" alt="" />
+                  </a>
+                </div>
+                <div class="prodact_content_box">
+                  <span class="prodact_title">SONY</span>
+                  <a href="">
+                    <p class="product_desc">
+                      Sony X85J 65" 4K UHD HDR LED Smart Google TV
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <span>3,014 review</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$18.124</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="next_prew_box" style="transform: scaleX(-1)">
+              <img src="public/images/icons/next.svg" alt="" />
+            </div>
+          </div>
+          <div class="pagionation_box">
+            <div class="pagination_main">
+              <img src="public/images/icons/arrow-prev_next.svg" alt="" />
+              <div class="pagination_dot">
+                <div class="dot">
+                  <div></div>
+                </div>
+                <div class="dot active">
+                  <div></div>
+                </div>
+                <div class="dot">
+                  <div></div>
+                </div>
+                <div class="dot">
+                  <div></div>
+                </div>
+                <div class="dot">
+                  <div></div>
+                </div>
+              </div>
+              <img
+                src="public/images/icons/arrow-prev_next.svg"
+                alt=""
+                style="transform: scaleX(-1)"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TOP DEALS -->
+
+      <div class="top_deals_frame">
+        <div class="container">
+          <div class="top_deals_main">
+            <div class="top_deal_content">
+              <strong>Top Deals Of The Day</strong>
+              <div class="deal_content_boxes">
+                <div class="deal_content_box">
+                  <span>178</span>
+                  <p>Days</p>
+                </div>
+                <div class="deal_content_box">
+                  <span>23</span>
+                  <p>Hours</p>
+                </div>
+                <div class="deal_content_box">
+                  <span>14</span>
+                  <p>Minuts</p>
+                </div>
+                <div class="deal_content_box">
+                  <span>39</span>
+                  <p>Seconds</p>
+                </div>
+              </div>
+              <div class="show_bottom">
+                <a href="">
+                  <button>Show More</button>
+                </a>
+              </div>
+            </div>
+            <div class="next_prew_box">
+              <img src="public/images/icons/next.svg" alt="" />
+            </div>
+            <div class="deal_info_content">
+              <div class="deal_info_content_boxes">
+                <div class="deal_img_boxes">
+                  <div class="deal_img_border_box">
+                    <img src="public/images/products/sony_laptop.png" alt="" />
+                  </div>
+                </div>
+                <div class="deal_info_img_boxes">
+                  <div class="prodact_content_box">
+                    <span class="prodact_title">SONY</span>
+                    <a href="">
+                      <p class="product_desc">
+                        SAMSUNG Chromebook 4+ 15.6" Intel® Celeron®
+                      </p>
+                    </a>
+                    <div class="review_box">
+                      <img src="public/images/icons/review.svg" alt="" />
+                      <img src="public/images/icons/review.svg" alt="" />
+                      <img src="public/images/icons/review.svg" alt="" />
+                      <img src="public/images/icons/review.svg" alt="" />
+                      <img src="public/images/icons/review.svg" alt="" />
+                      <span>3,014 review</span>
+                    </div>
+                    <div class="price_box">
+                      <strong>$18.124</strong>
+                      <span>$45</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="deal_info_content_boxes">
+                <div class="deal_img_boxes">
+                  <div class="deal_img_border_box">
+                    <img
+                      src="public/images/products/sony_playstation.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="deal_info_img_boxes">
+                  <div class="prodact_content_box">
+                    <span class="prodact_title">SONY</span>
+                    <a href="">
+                      <p class="product_desc">
+                        Sony PlayStation 5 Video Game Console
+                      </p>
+                    </a>
+                    <div class="review_box">
+                      <img src="public/images/icons/review.svg" alt="" />
+                      <img src="public/images/icons/review.svg" alt="" />
+                      <img src="public/images/icons/review.svg" alt="" />
+                      <img src="public/images/icons/review.svg" alt="" />
+                      <img src="public/images/icons/review.svg" alt="" />
+                      <span>3,014 review</span>
+                    </div>
+                    <div class="price_box">
+                      <strong>$18.124</strong>
+                      <span>$45</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="deal_info_content_boxes">
+                <div class="deal_img_boxes">
+                  <div class="deal_img_border_box">
+                    <img src="public/images/products/apple_watch.png" alt="" />
+                  </div>
+                </div>
+                <div class="deal_info_img_boxes">
+                  <div class="prodact_content_box">
+                    <span class="prodact_title">Eastsport</span>
+                    <a href="">
+                      <p class="product_desc">
+                        Apple Watch Series 3 GPS Space Gray - 38mm - Black
+                      </p>
+                    </a>
+                    <div class="review_box">
+                      <img src="public/images/icons/review.svg" alt="" />
+                      <img src="public/images/icons/review.svg" alt="" />
+                      <img src="public/images/icons/review.svg" alt="" />
+                      <img src="public/images/icons/review.svg" alt="" />
+                      <img src="public/images/icons/review.svg" alt="" />
+                      <span>3,014 review</span>
+                    </div>
+                    <div class="price_box">
+                      <strong>$18.124</strong>
+                      <span>$45</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="deal_info_content_boxes">
+                <div class="deal_img_boxes">
+                  <div class="deal_img_border_box">
+                    <img src="public/images/products/canon_camera.png" alt="" />
+                  </div>
+                </div>
+                <div class="deal_info_img_boxes">
+                  <div class="prodact_content_box">
+                    <span class="prodact_title">EASTSPORT</span>
+                    <a href="">
+                      <p class="product_desc">
+                        Canon EOS Rebel T100 Digital SLR Camera with.
+                      </p>
+                    </a>
+                    <div class="review_box">
+                      <img src="public/images/icons/review.svg" alt="" />
+                      <img src="public/images/icons/review.svg" alt="" />
+                      <img src="public/images/icons/review.svg" alt="" />
+                      <img src="public/images/icons/review.svg" alt="" />
+                      <img src="public/images/icons/review.svg" alt="" />
+                      <span>3,014 review</span>
+                    </div>
+                    <div class="price_box">
+                      <strong>$18.124</strong>
+                      <span>$45</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="next_prew_box" style="transform: scaleX(-1)">
+              <img src="public/images/icons/next.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+
+      <div class="footer_frame">
+        <div class="container">
+          <div class="footer_top">
+            <div class="footer_contect_box">
+              <span class="footer_space_title">Contact Use</span>
+              <div class="footer_contact_main">
+                <img src="public/images/icons/phone-call.svg" alt="" />
+                <div>
+                  <strong>Monday-friday: 08am-9pm</strong>
+                  <span>+99893 050 96 98</span>
+                </div>
+              </div>
+              <div class="footer_contact_main">
+                <img src="public/images/icons/email.svg" alt="" />
+                <div>
+                  <strong>Need help with your order?</strong>
+                  <span>support@zenmart.com</span>
+                </div>
+              </div>
+            </div>
+            <div class="footer_support_box">
+              <span class="footer_spec_title">Customer Support</span>
+              <a href="">Contact Us</a>
+              <a href="">Help Centre</a>
+              <a href="">Returns & Exchanges</a>
+              <a href="">Best Buy Financing</a>
+              <a href="">Best Buy Gift Card</a>
+            </div>
+            <div class="footer_support_box">
+              <span class="footer_spec_title">Services</span>
+              <a href="">Geek Squad</a>
+              <a href="">In-Home Advisor</a>
+              <a href="">Trade-In Program</a>
+              <a href="">Electronics Recycling</a>
+              <a href="">Best Buy Health</a>
+            </div>
+            <div class="footer_media_box">
+              <div class="footer_media_main">
+                <span class="footer_spec_title">Follow us</span>
+                <div class="media_box">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-apple"></i>
+                  <i class="fa-brands fa-linkedin_in"></i>
+                </div>
+                <div class="footer_media_main">
+                  <span class="footer_spec_title">Mobile Apps</span>
+                  <div class="mobile_app_box">
+                    <img src="public/images/icons/apple_icon.png" alt="" />
+                    <span>IOS App</span>
+                  </div>
+                  <div class="mobile_app_box">
+                    <img src="public/images/icons/android_icon.png" alt="" />
+                    <span>Android App</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer_card_box">
+              <div class="footer_card_main">
+                <span class="footer_spec_title">We accept</span>
+                <div class="card_box">
+                  <img src="public/images/icons/visa.png" alt="" />
+                  <img src="public/images/icons/master_card.png" alt="" />
+                  <img src="public/images/icons/apple_pay.png" alt="" />
+                  <img src="public/images/icons/dicvover.png" alt="" />
+                  <img src="public/images/icons/paypal.png" alt="" />
+                  <img src="public/images/icons/amex.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer_bottom">
+            <div class="footer_main">
+              <div class="footer_bottom_left">
+                <span>© 2022 Zenmart. All Rights Reserved</span>
+                <span>Privacy · Terms · Sitemap</span>
+              </div>
+              <div class="footer_bottom_right">
+                <div class="footer_select_box">
+                  <span>Currency</span>
+                  <select name="" id="">
+                    <option value="" selected>USD</option>
+                    <option value="">UZS</option>
+                  </select>
+                </div>
+                <div class="footer_select_box">
+                  <span>Language</span>
+                  <select name="" id="">
+                    <option value="" selected>English</option>
+                    <option value="">Uzbek</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
