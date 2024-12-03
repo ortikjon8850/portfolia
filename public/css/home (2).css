@@ -20,23 +20,23 @@
 }
 
 .container .category_top span {
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 1.75rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  color: var(--Color-Text-Dark, #041e42);
+  color: #041e42;
   text-transform: capitalize;
 }
 
 .container .category_top a {
   margin-left: 30px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 0.9375rem;
   font-style: normal;
   font-weight: 500;
   line-height: 1.375rem;
-  color: var(--Color-Text-Dark, #041e42);
+  color: #041e42;
   text-transform: capitalize;
 }
 
@@ -156,10 +156,10 @@
   background: #0053f6;
   box-shadow: 0px 5px 20px 0px rgba(0, 83, 246, 0.1);
 
-  color: var(--Bg-White, #fff);
+  color: #fff;
   text-align: center;
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 0.9375rem;
   font-style: normal;
   font-weight: 500;
@@ -178,8 +178,8 @@
 }
 
 .container .product_content_box .product_title {
-  color: var(--Color-Text-Light, #626974);
-  font-family: Jost;
+  color: #626974;
+  font-family: var(--font);
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
@@ -214,7 +214,7 @@
 .container .review_box span {
   margin-left: 10px;
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -230,7 +230,7 @@
 }
 
 .container .price_box strong {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -241,7 +241,7 @@
 .container .price_box span {
   margin-left: 10px;
   color: #626974;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -291,9 +291,9 @@
   background: #f5c34b;
   border-radius: 6px;
 
-  color: var(--Color-Text-Dark, #041e42);
+  color: #041e42;
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 0.8125rem;
   font-style: normal;
   font-weight: 500;
@@ -304,8 +304,8 @@
   margin-top: 10px;
   width: 428px;
 
-  color: var(--Bg-White, #fff);
-  font-family: Jost;
+  color: #fff;
+  font-family: var(--font);
   font-size: 3.75rem;
   font-style: normal;
   font-weight: 400;
@@ -315,7 +315,7 @@
 .header_frame .header_content p {
   margin-top: 10px;
 
-  color: var(--Bg-White, #fff);
+  color: #fff;
 
   font-family: Jost;
   font-size: 1rem;
@@ -336,10 +336,10 @@
   background-color: #ffffff;
   border-radius: 6px;
 
-  color: var(--Color-Text-Dark, #041e42);
+  color: #041e42;
   text-align: center;
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 0.9375rem;
   font-style: normal;
   font-weight: 500;
@@ -378,7 +378,7 @@
 }
 
 .header_frame .box_left span {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 0.9375rem;
   font-style: normal;
   font-weight: 400;
@@ -388,21 +388,21 @@
 
 .header_frame .box_left p {
   margin: 10px 0px;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 1.625rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  color: var(--Color-Text-Dark, #041e42);
+  color: #041e42;
 }
 
 .header_frame .box_left a {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 0.9375rem;
   font-style: normal;
   font-weight: 500;
   line-height: 1.375rem;
-  color: var(--Color-Text-Dark, #041e42);
+  color: #041e42;
 }
 
 .header_frame .box_left .hover_border {
@@ -459,21 +459,21 @@
 }
 
 .service_frame .service_content span {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
   line-height: 1.75rem;
-  color: var(--Color-Text-Dark, #041e42);
+  color: #041e42;
 }
 
 .service_frame .service_content p {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 0.9375rem;
   font-style: normal;
   font-weight: 400;
   line-height: 1.375rem;
-  color: var(--Color-Text-Light, #626974);
+  color: #626974;
 }
 
 /* SHOP CATEGORY */
@@ -523,12 +523,12 @@
 
 .shop_category_frame .category_box span {
   text-align: center;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
   line-height: 1.75rem;
-  color: var(--Color-Text-Dark, #041e42);
+  color: #041e42;
 }
 
 /* SELLING PRODUCT */
@@ -616,10 +616,10 @@
   background: #0053f6;
   box-shadow: 0px 5px 20px 0px rgba(0, 83, 246, 0.1);
 
-  color: var(--Bg-White, #fff);
+  color:  #fff;
   text-align: center;
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 0.9375rem;
   font-style: normal;
   font-weight: 500;
@@ -638,8 +638,8 @@
 }
 
 .selling_product_frame .product_content_box .product_title {
-  color: var(--Color-Text-Light, #626974);
-  font-family: Jost;
+  color: #626974;
+  font-family: var(--font);
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
@@ -775,7 +775,7 @@
 
 .big_product_content span {
   margin: 7px o;
-font-family: "Jost";
+font-family: var(--font);
 font-style: normal;
 font-weight: 400;
 font-size: 15px;
@@ -787,7 +787,7 @@ color: #041e42;
 }
 
 .big_product_content p {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 26px;
@@ -797,7 +797,7 @@ color: #041e42;
 }
 
 .big_product_content a {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -847,7 +847,7 @@ color: #041e42;
 }
 
 .small_product_content .strong {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -857,7 +857,7 @@ color: #041e42;
 }
 
 .small_product_content .span {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -965,7 +965,7 @@ color: #041e42;
 
 .event_frame .event_content_box .event_content_title {
   color:  #fff;
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
@@ -989,7 +989,7 @@ color: #041e42;
 
 .event_frame .timer_box strong {
   color:  #fff;
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
@@ -998,7 +998,7 @@ color: #041e42;
 
 .event_frame .timer_box span {
   color:  #fff;
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -1020,7 +1020,7 @@ color: #041e42;
 
   color:  #041e42;
   text-align: center;
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
